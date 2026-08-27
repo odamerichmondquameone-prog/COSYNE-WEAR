@@ -19,8 +19,12 @@ Files
 - `assets/css/style.css` — Styles
 - `assets/js/main.js` — Minimal JS
 
-Next steps
+Completed
 
-- Add real product images in `assets/images/`
-- Integrate a checkout system (Stripe, Shopify, etc.)
-- Add analytics and SEO meta tags
+- Real product images, award images, and videos are stored in `assets/images/`
+- SEO descriptions and Open Graph metadata are included on every HTML page
+
+Remaining setup
+
+- Connect a payment provider such as Paystack or Shopify for automated checkout. The current MTN MoMo links open `*170#` and require customer confirmation.
+- Add an analytics provider tracking ID, such as Google Analytics, before adding its tracking script.
